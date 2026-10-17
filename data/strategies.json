@@ -1,0 +1,446 @@
+{
+ "summary": {
+  "strategies": 3,
+  "trials": 23,
+  "phases": {
+   "보류": 3
+  },
+  "action": []
+ },
+ "strategies": [
+  {
+   "key": "x__tmmrwseoul__2108962705319317665",
+   "title": "2020년 USIC 우승자 (당해 수익률 941%) Oliver Kell의 \"가격 움직임의 사이클 (cycle of price action)\" …",
+   "author": "@tmmrwseoul",
+   "url": "https://x.com/tmmrwseoul/status/2108962705319317665",
+   "platform": "x",
+   "summary": "10·20EMA 기준으로 바닥 투매→이평 재돌파→되돌림→베이스 돌파→과열 꼭지→이평 이탈의 가격 사이클을 읽고, 초반에 쌓고 후반에 턴다",
+   "rule": "",
+   "interval": "1d",
+   "symbols": [
+    "ADA",
+    "BTC",
+    "DOGE",
+    "DOT",
+    "ETH",
+    "SOL",
+    "SUI",
+    "XRP"
+   ],
+   "stage_label": "완료",
+   "phase": "보류",
+   "registered": "2026-10-13",
+   "updated": "2026-10-13",
+   "result": {
+    "code": "HOLD_UNDECIDABLE",
+    "label": "🟡 판정불가",
+    "text": "🟡 판정불가 · 거래당 +0.20R · 58건 · 승률 40% · 90% 범위 [-0.02, +0.44]",
+    "mean_r": 0.196,
+    "n": 58,
+    "win_rate": 0.397,
+    "ci90": [
+     -0.016,
+     0.443
+    ]
+   },
+   "confirm": null,
+   "next_step": "보류 — 재시도는 새 변형/새 창으로만 (시도 +1)",
+   "timeline": [
+    {
+     "at": "2026-10-13 07:40",
+     "label": "완료",
+     "confirm": false
+    }
+   ],
+   "decision": ""
+  },
+  {
+   "key": "x__WhitePeach__2069009712256106966",
+   "title": "4h BOS 레그 할인/프리미엄 내 1h 스윕 뒤 첫 FVG CE∈OB몸통 지정가 (연구자 가설)",
+   "author": "@WhitePeach",
+   "url": "https://x.com/WhitePeach/status/2069009712256106966",
+   "platform": "x",
+   "summary": "ICT FVG+OB 조합 셋업 — 유동성 스윕→강한 변위→FVG/OB 중첩 구간 재방문에서, HTF Discount(불리시)·Premium(베어리시) 방향만 진입",
+   "rule": "4h BOS 레그 할인/프리미엄 내 1h 스윕 뒤 첫 FVG CE∈OB몸통 지정가 (연구자 가설)",
+   "interval": "1h",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "완료",
+   "phase": "보류",
+   "registered": "2026-10-14",
+   "updated": "2026-10-15",
+   "result": {
+    "code": "HOLD_UNDECIDABLE",
+    "label": "🟡 판정불가",
+    "text": "🟡 판정불가 · 거래당 +0.05R · 78건 · 승률 24% · 90% 범위 [-0.39, +0.52]",
+    "mean_r": 0.047,
+    "n": 78,
+    "win_rate": 0.244,
+    "ci90": [
+     -0.391,
+     0.519
+    ]
+   },
+   "confirm": null,
+   "next_step": "보류 — 재시도는 새 변형/새 창으로만 (시도 +1)",
+   "timeline": [
+    {
+     "at": "2026-10-14 01:25",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 01:40",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 11:59",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 12:22",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 15:40",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 16:07",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 16:22",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 16:37",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 16:53",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 17:22",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 17:47",
+     "label": "구현 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 18:08",
+     "label": "입력 준비",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 18:08",
+     "label": "신호 세는 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 18:53",
+     "label": "백테스트 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 20:08",
+     "label": "기계 점검",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 20:08",
+     "label": "❌ 실패",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-14 22:38",
+     "label": "기계 점검",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 00:23",
+     "label": "판정 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 00:23",
+     "label": "기록 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 00:23",
+     "label": "원장 기록",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 00:23",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 00:43",
+     "label": "완료",
+     "confirm": false
+    }
+   ],
+   "decision": ""
+  },
+  {
+   "key": "x__apoorvsinghasr__2110394084598960273",
+   "title": "MY FINAL TRADING STRATEGY: 10/21 EMA + SUPERTREND (10,3) The objective is …",
+   "author": "@apoorvsinghasr",
+   "url": "https://x.com/apoorvsinghasr/status/2110394084598960273",
+   "platform": "x",
+   "summary": "일봉 10/21 EMA 골든크로스+되돌림으로 진입해 4R·EMA 이탈 순서로 25%씩 분할청산·재진입하며 큰 추세를 타는 추세추종 전략.",
+   "rule": "10/21 EMA 골든크로스 되돌림 (4R 25% 부분익절, 잔량 21 EMA 2연속 이탈 청산)",
+   "interval": "1d",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "완료",
+   "phase": "보류",
+   "registered": "2026-10-15",
+   "updated": "2026-10-16",
+   "result": {
+    "code": "PROCEED_POSITIVE",
+    "label": "🟢 플러스",
+    "text": "🟢 플러스 · 거래당 +0.60R · 138건 · 승률 28% · 90% 범위 [+0.10, +1.16]",
+    "mean_r": 0.6,
+    "n": 138,
+    "win_rate": 0.275,
+    "ci90": [
+     0.097,
+     1.155
+    ]
+   },
+   "confirm": {
+    "code": "INVALID",
+    "label": "⚪ 무효",
+    "reason": "목표 없음 표시용 TP(진입가 ×10)에 실제 도달 — DOGE (측정 불가로 무효)"
+   },
+   "next_step": "확증 무효 — 새 데이터 창이 필요 (pre2021 재사용 불가)",
+   "timeline": [
+    {
+     "at": "2026-10-15 10:08",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 10:20",
+     "label": "해석 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 11:27",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 11:42",
+     "label": "해석 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 11:57",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 14:33",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 14:57",
+     "label": "해석 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 15:12",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 15:27",
+     "label": "해석 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 15:42",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 15:57",
+     "label": "해석 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 16:12",
+     "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 16:27",
+     "label": "해석 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 16:42",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:10",
+     "label": "구현 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:27",
+     "label": "구현 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:29",
+     "label": "구현 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:40",
+     "label": "구현 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:42",
+     "label": "구현 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:44",
+     "label": "구현 리뷰 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:46",
+     "label": "입력 준비",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:46",
+     "label": "신호 세는 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:46",
+     "label": "백테스트 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:47",
+     "label": "기계 점검",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:47",
+     "label": "판정 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:47",
+     "label": "기록 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:47",
+     "label": "원장 기록",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 21:47",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-15 22:08",
+     "label": "완료",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-16 05:50",
+     "label": "CONFIRM_SETUP",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 05:50",
+     "label": "CONFIRM_REPRO",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 05:51",
+     "label": "CONFIRM_RUN",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 05:52",
+     "label": "CONFIRM_S0",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 06:14",
+     "label": "CONFIRM_VERDICT",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 06:14",
+     "label": "CONFIRM_LEDGER",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 06:14",
+     "label": "❌ 실패",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 13:14",
+     "label": "CONFIRM_LEDGER",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-16 13:14",
+     "label": "완료",
+     "confirm": true
+    }
+   ],
+   "decision": ""
+  }
+ ],
+ "digest": "df9ec5103abb7f26319973f5be1983a971af5183f36a7fac11b3885452dda301",
+ "generated": "2026-10-17T04:03+00:00"
+}
