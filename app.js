@@ -7,7 +7,7 @@ const PHASE_ORDER = ["승인 대기", "확인 필요", "확증 대기", "진행 
 const PHASE_DESC = {
   "승인 대기": "사람이 해석이나 결과를 확인하고 승인할 차례입니다.",
   "확인 필요": "실행 중 문제가 생겨 사람이 원인을 봐야 합니다.",
-  "확증 대기": "🟢가 나왔습니다. 아무도 안 본 데이터로 다시 잴 수 있습니다.",
+  "확증 대기": "플러스 결과가 나왔습니다. 아무도 안 본 데이터로 다시 잴 수 있습니다.",
   "진행 중": "해석·구현·백테스트가 자동으로 돌고 있습니다.",
   "확증됨": "다른 시대 데이터에서도 이득이 재현된 전략입니다.",
   "보류": "결론이 나지 않았습니다. 다시 하려면 새 변형이나 새 데이터가 필요합니다.",
@@ -16,10 +16,10 @@ const PHASE_DESC = {
 const PHASE_TONE = { "확증됨": "pos", "보류": "hold", "종결": "neg", "승인 대기": "act", "확인 필요": "act", "확증 대기": "act", "진행 중": "run" };
 const RESULT_TONE = { PROCEED_POSITIVE: "pos", HOLD_UNDECIDABLE: "hold", STOP_NEGATIVE: "neg" };
 const RESULT_GROUPS = [
-  ["pos", "🟢 플러스", "거래당 평균 수익의 90% 범위가 0보다 위였던 전략"],
-  ["hold", "🟡 판정불가", "범위가 0을 걸쳐 이득·손해를 가를 수 없었던 전략"],
-  ["neg", "🔴 손해 확실", "범위 전체가 0보다 아래였던 전략"],
-  ["mute", "⚪ 기각·부족·무효", "측정하지 못했거나 신호가 부족했던 전략"],
+  ["pos", "플러스", "거래당 평균 수익의 90% 범위가 0보다 위였던 전략"],
+  ["hold", "판정불가", "범위가 0을 걸쳐 이득·손해를 가를 수 없었던 전략"],
+  ["neg", "손해 확실", "범위 전체가 0보다 아래였던 전략"],
+  ["mute", "기각·부족·무효", "측정하지 못했거나 신호가 부족했던 전략"],
   ["none", "결과 대기", "아직 결과가 나오지 않은 전략"],
 ];
 const PLATFORM = { x: "X", youtube: "YouTube", web: "웹" };
@@ -31,6 +31,9 @@ function safeUrl(u) { try { const x = new URL(u); return /^https?:$/.test(x.prot
 const sign = (v) => (v > 0 ? "+" : v < 0 ? "−" : "") + Math.abs(Number(v)).toFixed(2);
 const pct = (v) => Math.round(v * 100) + "%";
 const href = (s) => "#/s/" + encodeURIComponent(s.key);
+// 컬러 이모지(🟢 등)는 눈이 피로해 떼고, 옅은 색 점으로 대신한다
+const bare = (l) => String(l ?? "").replace(/^\p{Extended_Pictographic}\uFE0F?\s*/u, "");
+const dot = (t) => `<i class="tdot ${t}" aria-hidden="true"></i>`;
 
 function tone(s) {
   if (!s.result) return ACTION.has(s.phase) ? "act" : "none";
@@ -66,7 +69,7 @@ function rangeBar(r) {
 
 function thumb(s) {
   const r = s.result, t = tone(s);
-  const head = `<div class="verdict"><span>${esc(r ? r.label : "결과 대기")}</span><span class="phase ${PHASE_TONE[s.phase] || ""}">${esc(s.phase)}</span></div>`;
+  const head = `<div class="verdict"><span>${dot(t)}${esc(r ? bare(r.label) : "결과 대기")}</span><span class="phase ${PHASE_TONE[s.phase] || ""}">${esc(s.phase)}</span></div>`;
   let big = "";
   if (r && r.mean_r != null) big = `<div class="big"><b>${sign(r.mean_r)}R</b><span>거래당 평균 · ${r.n}건 · 승률 ${pct(r.win_rate)}</span></div>`;
   else big = `<div class="big"><b>${r ? "—" : "…"}</b><span>${r ? "측정값 없음" : "검증 중"}</span></div>`;
@@ -75,7 +78,7 @@ function thumb(s) {
 
 function card(s) {
   const minis = [];
-  if (s.confirm) minis.push(`<span class="mini confirm">확증 ${esc(s.confirm.label)}</span>`);
+  if (s.confirm) minis.push(`<span class="mini confirm">확증 · ${esc(bare(s.confirm.label))}</span>`);
   if (s.decision) minis.push(`<span class="mini decision">내 결정 · ${esc(s.decision)}</span>`);
   return `<a class="card box" href="${href(s)}">
     ${thumb(s)}
@@ -129,13 +132,13 @@ function renderTop() {
   const conf = all.filter((s) => s.phase === "확증됨").length;
   const run = all.filter((s) => s.phase === "진행 중").length;
   const tiles = [
-    ["📚", "검증한 전략", all.length, "X·유튜브 등에서 수집"],
-    ["🧪", "누적 검증 시도", sm.trials ?? "—", "운을 걸러내려고 모두 셉니다"],
-    ["🟢", "플러스 결과", pos, "과거 데이터에서 이득"],
-    ["✅", "확증됨", conf, "다른 시대에서도 재현"],
-    ["⏳", "진행 중", run, "자동으로 검증 중"],
+    ["", "검증한 전략", all.length, "X·유튜브 등에서 수집"],
+    ["", "누적 검증 시도", sm.trials ?? "—", "운을 걸러내려고 모두 셉니다"],
+    ["", "플러스 결과", pos, "과거 데이터에서 이득"],
+    ["", "확증됨", conf, "다른 시대에서도 재현"],
+    ["", "진행 중", run, "자동으로 검증 중"],
   ];
-  $("stats").innerHTML = tiles.map(([i, k, v, s]) => `<div class="stat box"><div class="k">${i} ${esc(k)}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join("");
+  $("stats").innerHTML = tiles.map(([i, k, v, s]) => `<div class="stat box"><div class="k">${esc(k)}</div><div class="v">${esc(v)}</div><div class="s">${esc(s)}</div></div>`).join("");
 
   const todo = all.filter((s) => ACTION.has(s.phase));
   $("todo").hidden = todo.length === 0;
@@ -167,7 +170,7 @@ function detail(s) {
       <div class="tile"><div class="k">승률</div><div class="v">${pct(r.win_rate)}</div></div>
       <div class="tile"><div class="k">90% 범위</div><div class="v" style="font-size:16px">${sign(r.ci90[0])} ~ ${sign(r.ci90[1])}</div></div></div>` : "";
   const confirm = s.confirm ? `<div class="d-sec"><h3><span class="ico">✓</span>확증 (다른 시대 데이터로 재검증)</h3>
-      <div class="rule-box box"><b>${esc(s.confirm.label)}</b>${s.confirm.reason ? `<p class="d-text" style="margin-top:6px">${esc(s.confirm.reason)}</p>` : ""}</div></div>` : "";
+      <div class="rule-box box"><b>${esc(bare(s.confirm.label))}</b>${s.confirm.reason ? `<p class="d-text" style="margin-top:6px">${esc(s.confirm.reason)}</p>` : ""}</div></div>` : "";
   const tl = s.timeline.map((t) => `<li class="${t.confirm ? "c" : ""}"><time>${esc(t.at)}</time>${t.confirm ? "확증 · " : ""}${esc(t.label)}</li>`).join("");
   return `<nav class="crumb"><a href="#/">전략</a> › ${esc(s.phase)} › ${esc(s.author)}</nav>
     <span class="phase ${PHASE_TONE[s.phase] || ""}">${esc(s.phase)}</span>
