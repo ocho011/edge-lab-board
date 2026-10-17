@@ -462,13 +462,17 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ① 대기",
+   "stage_label": "⏸ 승인 ② 대기",
    "phase": "승인 대기",
    "registered": "2026-10-17",
    "updated": "2026-10-17",
-   "result": null,
+   "result": {
+    "code": "REJECT_PAPER",
+    "label": "⚪ 서류 기각",
+    "text": "⚪ 서류 기각"
+   },
    "confirm": null,
-   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
+   "next_step": "결과 확인 후 'edge-lab 승인 2'",
    "timeline": [
     {
      "at": "2026-10-17 11:54",
@@ -479,11 +483,21 @@
      "at": "2026-10-17 11:56",
      "label": "⏸ 승인 ① 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-17 12:31",
+     "label": "원장 기록",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-17 12:31",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "726dca9dd94cfb1d5be4a95b3f0394cc18e8e16efecdac29f081e7ff5a567f68",
- "generated": "2026-10-17T11:56+00:00"
+ "digest": "20e365016ea4dd23f3d36ec7c72c26bebeb291238af8c4d2946cf0433f1a27f3",
+ "generated": "2026-10-17T12:39+00:00"
 }
