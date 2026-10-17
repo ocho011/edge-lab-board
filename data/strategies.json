@@ -4,9 +4,11 @@
   "trials": 23,
   "phases": {
    "보류": 3,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "x__Ahmedalsamel1__2111168049701355912"
+  ]
  },
  "strategies": [
   {
@@ -448,26 +450,40 @@
    "url": "https://x.com/Ahmedalsamel1/status/2111168049701355912",
    "platform": "x",
    "summary": "전일 거래량 폭증 급등주의 일봉 고점을 기준선으로 5분봉에서 거래량 동반 돌파→조정 저점→재상승에 매수하고 직전 저점에 손절",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
-   "phase": "진행 중",
+   "rule": "전일 거래량 급등주 5분봉 돌파·되돌림·재돌파",
+   "interval": "5m",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "⏸ 승인 ① 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-17",
    "updated": "2026-10-17",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
    "timeline": [
     {
      "at": "2026-10-17 11:54",
      "label": "해석 작성 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-17 11:56",
+     "label": "⏸ 승인 ① 대기",
      "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "12ebe57366ebd8f58de520d4987639c38003ee1e89491b3185afd9c0edb3e495",
- "generated": "2026-10-17T11:54+00:00"
+ "digest": "726dca9dd94cfb1d5be4a95b3f0394cc18e8e16efecdac29f081e7ff5a567f68",
+ "generated": "2026-10-17T11:56+00:00"
 }
