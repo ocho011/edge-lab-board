@@ -1,9 +1,10 @@
 {
  "summary": {
-  "strategies": 3,
+  "strategies": 4,
   "trials": 23,
   "phases": {
-   "보류": 3
+   "보류": 3,
+   "진행 중": 1
   },
   "action": []
  },
@@ -439,8 +440,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__Ahmedalsamel1__2111168049701355912",
+   "title": "هذا الفديو ماأبيعه حتى بمليون ريال 💰💰✅ المضاربة اللحظيه",
+   "author": "@Ahmedalsamel1",
+   "url": "https://x.com/Ahmedalsamel1/status/2111168049701355912",
+   "platform": "x",
+   "summary": "전일 거래량 폭증 급등주의 일봉 고점을 기준선으로 5분봉에서 거래량 동반 돌파→조정 저점→재상승에 매수하고 직전 저점에 손절",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-17",
+   "updated": "2026-10-17",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-17 11:54",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "df9ec5103abb7f26319973f5be1983a971af5183f36a7fac11b3885452dda301",
- "generated": "2026-10-17T04:03+00:00"
+ "digest": "12ebe57366ebd8f58de520d4987639c38003ee1e89491b3185afd9c0edb3e495",
+ "generated": "2026-10-17T11:54+00:00"
 }
