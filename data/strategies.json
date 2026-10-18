@@ -4,11 +4,9 @@
   "trials": 23,
   "phases": {
    "보류": 3,
-   "승인 대기": 1
+   "종결": 1
   },
-  "action": [
-   "x__Ahmedalsamel1__2111168049701355912"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -462,17 +460,17 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-17",
-   "updated": "2026-10-17",
+   "updated": "2026-10-18",
    "result": {
     "code": "REJECT_PAPER",
     "label": "⚪ 서류 기각",
     "text": "⚪ 서류 기각"
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (서류 기각) — 빈칸을 정해 연구자 가설로 재시도 가능",
    "timeline": [
     {
      "at": "2026-10-17 11:54",
@@ -493,11 +491,16 @@
      "at": "2026-10-17 12:31",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-18 01:30",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "20e365016ea4dd23f3d36ec7c72c26bebeb291238af8c4d2946cf0433f1a27f3",
- "generated": "2026-10-17T12:39+00:00"
+ "digest": "d76f70ab8827942e1ff336b56ef5c3087637b99e3c68fe3449b99ff43c77adc5",
+ "generated": "2026-10-18T01:41+00:00"
 }
