@@ -1,11 +1,10 @@
 {
  "summary": {
   "strategies": 6,
-  "trials": 25,
+  "trials": 26,
   "phases": {
-   "보류": 3,
-   "종결": 2,
-   "진행 중": 1
+   "보류": 4,
+   "종결": 2
   },
   "action": []
  },
@@ -672,7 +671,7 @@
     "SUI"
    ],
    "stage_label": "완료",
-   "phase": "진행 중",
+   "phase": "보류",
    "registered": "2026-10-19",
    "updated": "2026-10-19",
    "result": {
@@ -688,11 +687,11 @@
     ]
    },
    "confirm": {
-    "code": null,
-    "label": "진행 중: CONFIRM_S0",
-    "reason": ""
+    "code": "INVALID",
+    "label": "⚪ 무효",
+    "reason": "목표 없음 표시용 TP(진입가 ×10)에 실제 도달 — DOGE (측정 불가로 무효)"
    },
-   "next_step": "확증 자동 진행 중",
+   "next_step": "확증 무효 — 새 데이터 창이 필요 (pre2021 재사용 불가)",
    "timeline": [
     {
      "at": "2026-10-19 11:06",
@@ -823,11 +822,26 @@
      "at": "2026-10-19 12:50",
      "label": "CONFIRM_S0",
      "confirm": true
+    },
+    {
+     "at": "2026-10-19 12:51",
+     "label": "CONFIRM_VERDICT",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-19 12:51",
+     "label": "CONFIRM_LEDGER",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-19 12:51",
+     "label": "완료",
+     "confirm": true
     }
    ],
    "decision": ""
   }
  ],
- "digest": "e99d754e660d31d87cec6a7ed0aeb26064bad7ca126135b4ff99cca234955202",
- "generated": "2026-10-19T12:50+00:00"
+ "digest": "aab046062dfa89323480710397cae7e96de13d84720c846477b4420086075a3b",
+ "generated": "2026-10-19T12:51+00:00"
 }
