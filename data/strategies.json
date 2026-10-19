@@ -671,7 +671,7 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "백테스트 중",
+   "stage_label": "기계 점검",
    "phase": "진행 중",
    "registered": "2026-10-19",
    "updated": "2026-10-19",
@@ -758,11 +758,16 @@
      "at": "2026-10-19 12:23",
      "label": "백테스트 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-19 12:23",
+     "label": "기계 점검",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "41a627324ef0f99fb152699e0d78fbfd1360379d98f5411cff16045ee09f0a07",
+ "digest": "9d779539d0617ac1c9bdff11a1585f0230d44a45d30e2b1dafbefadf0ff446c5",
  "generated": "2026-10-19T12:23+00:00"
 }
