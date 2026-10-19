@@ -1,11 +1,11 @@
 {
  "summary": {
-  "strategies": 5,
+  "strategies": 6,
   "trials": 23,
   "phases": {
    "보류": 3,
    "종결": 1,
-   "진행 중": 1
+   "진행 중": 2
   },
   "action": []
  },
@@ -610,8 +610,28 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__OtherSideBJ__2111997344829067460",
+   "title": "曾经有个职业舞蹈演员，趁着巡演空档，靠电报看美股行情，自己炒股，结果赚了 200 万美元。 …",
+   "author": "@OtherSideBJ",
+   "url": "https://x.com/OtherSideBJ/status/2111997344829067460",
+   "platform": "x",
+   "summary": "다바스 박스(TradingView KivancOzbilgic 지표, BOX LENGTH 5) 상단 돌파 시 매수, 손절은 박스 하단 아래 — 강세 종목 추세 추종",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "등록됨",
+   "phase": "진행 중",
+   "registered": "2026-10-19",
+   "updated": "",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [],
+   "decision": ""
   }
  ],
- "digest": "0972da66c07031d5806838243e2d15c06385a464225af6471ad531b3bf51080f",
- "generated": "2026-10-19T07:48+00:00"
+ "digest": "edc6f5f75fb5c7553b269bd0d1ce77ef0cb90844165bdfe385f0feff4db6fd73",
+ "generated": "2026-10-19T08:32+00:00"
 }
