@@ -209,7 +209,9 @@ function route() {
   if (h && !h.startsWith("/") && state.all.some((s) => s.key === h)) h = "/s/" + h; // 예전 링크(#key)
   const m = h.match(/^\/s\/(.+)$/);
   const s = m && state.all.find((x) => x.key === m[1]);
-  $("list-view").hidden = !!s;
+  const about = !s && (h === "how" || h === "guide");
+  $("list-view").hidden = !!s || about;
+  $("about-view").hidden = !about;
   $("detail-view").hidden = !s;
   if (s) {
     $("detail-view").innerHTML = detail(s);

@@ -55,7 +55,10 @@
       <div id="groups"></div>
       <p class="empty" id="empty" hidden>조건에 맞는 전략이 없습니다. 필터를 바꿔 보세요.</p>
     </section>
+  </div>
 
+  <!-- 검증 방법·읽는 법 화면 -->
+  <div id="about-view" hidden>
     <section class="how" id="how">
       <div class="section-head">
         <h2><span class="num">∞</span>어떻게 검증하나</h2>
@@ -79,7 +82,6 @@
         <div class="g-card"><b>R (손익 단위)</b><p>손절 한 번의 크기를 1로 본 단위. <b>+0.6R</b> = 거래당 평균 손절 폭의 0.6배를 벌었다는 뜻.</p></div>
         <div class="g-card"><b>90% 범위</b><p>“진짜 평균이 이 안에 있을 가능성이 높다”는 구간. 막대가 0선을 넘어가면 판정이 갈리지 않습니다.</p></div>
       </div>
-      <p class="disclaimer">투자 조언이 아닙니다. 모든 수치는 과거 데이터 백테스트이며, 수수료·슬리피지·펀딩을 보수적으로 차감했습니다.</p>
     </section>
   </div>
 
@@ -87,6 +89,7 @@
   <main id="detail-view" hidden></main>
 
   <footer class="foot">
+    <p class="disclaimer">투자 조언이 아닙니다. 모든 수치는 과거 데이터 백테스트이며, 수수료·슬리피지·펀딩을 보수적으로 차감했습니다.</p>
     <span id="generated"></span>
     <span>자동 생성 · <a href="https://github.com/ocho011/edge-lab-board">edge-lab-board</a></span>
   </footer>

@@ -222,6 +222,7 @@ details.more summary { cursor: pointer; font-weight: 700; }
 
 .foot { max-width: 1200px; margin: 30px auto 0; padding: 22px 24px 44px; border-top: 1px solid var(--line);
   display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; color: var(--muted); font-size: 13px; }
+.foot .disclaimer { flex-basis: 100%; margin: 0; }
 
 /* responsive */
 @media (max-width: 960px) {
