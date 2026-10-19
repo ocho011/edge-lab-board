@@ -1,16 +1,13 @@
 {
  "summary": {
   "strategies": 6,
-  "trials": 23,
+  "trials": 24,
   "phases": {
    "보류": 3,
-   "종결": 1,
-   "승인 대기": 1,
+   "종결": 2,
    "진행 중": 1
   },
-  "action": [
-   "x__OtherSideBJ__2112004867137175768"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -523,8 +520,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-19",
    "updated": "2026-10-19",
    "result": {
@@ -540,7 +537,7 @@
     ]
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (손해 확실)",
    "timeline": [
     {
      "at": "2026-10-19 05:47",
@@ -646,6 +643,11 @@
      "at": "2026-10-19 09:36",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-19 09:50",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
@@ -660,17 +662,23 @@
    "rule": "",
    "interval": "",
    "symbols": [],
-   "stage_label": "등록됨",
+   "stage_label": "해석 작성 중",
    "phase": "진행 중",
    "registered": "2026-10-19",
-   "updated": "",
+   "updated": "2026-10-19",
    "result": null,
    "confirm": null,
    "next_step": "자동 진행 중 — 기다리면 됨",
-   "timeline": [],
+   "timeline": [
+    {
+     "at": "2026-10-19 11:06",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
    "decision": ""
   }
  ],
- "digest": "15dba2f6c3ed4d5f59e2b8a1a518a367d825436248a4a2a75fb6b681fab4e176",
- "generated": "2026-10-19T09:36+00:00"
+ "digest": "bae27ee926a98cc85e2dc82ae0c4aa58103b7414295652fe3cd2cd4d1c7fa25e",
+ "generated": "2026-10-19T11:06+00:00"
 }
