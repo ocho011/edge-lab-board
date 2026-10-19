@@ -1,15 +1,13 @@
 {
  "summary": {
   "strategies": 6,
-  "trials": 24,
+  "trials": 25,
   "phases": {
    "보류": 3,
    "종결": 2,
-   "승인 대기": 1
+   "진행 중": 1
   },
-  "action": [
-   "x__OtherSideBJ__2111997344829067460"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -673,8 +671,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "진행 중",
    "registered": "2026-10-19",
    "updated": "2026-10-19",
    "result": {
@@ -691,10 +689,10 @@
    },
    "confirm": {
     "code": null,
-    "label": "아직 안 함",
+    "label": "진행 중: CONFIRM_REPRO",
     "reason": ""
    },
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "확증 자동 진행 중",
    "timeline": [
     {
      "at": "2026-10-19 11:06",
@@ -800,11 +798,26 @@
      "at": "2026-10-19 12:24",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-19 12:38",
+     "label": "완료",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-19 12:48",
+     "label": "CONFIRM_SETUP",
+     "confirm": true
+    },
+    {
+     "at": "2026-10-19 12:48",
+     "label": "CONFIRM_REPRO",
+     "confirm": true
     }
    ],
    "decision": ""
   }
  ],
- "digest": "0c96e89d411eedc04851a300593b5341e95ddcb64917fc5bc396d599e10dd784",
- "generated": "2026-10-19T12:24+00:00"
+ "digest": "219fa86edcdacbdbb579e418f623ff380fac7814cc9603f6b8d40d9807e2f559",
+ "generated": "2026-10-19T12:48+00:00"
 }
