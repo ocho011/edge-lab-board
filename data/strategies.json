@@ -1,10 +1,11 @@
 {
  "summary": {
-  "strategies": 4,
+  "strategies": 5,
   "trials": 23,
   "phases": {
    "보류": 3,
-   "종결": 1
+   "종결": 1,
+   "진행 중": 1
   },
   "action": []
  },
@@ -499,8 +500,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__OtherSideBJ__2112004867137175768",
+   "title": "美国交易员JadeCap简直是个交易天才，他用一套ict策略累计赚了450万美元，3000多万人民币。 …",
+   "author": "@OtherSideBJ",
+   "url": "https://x.com/OtherSideBJ/status/2112004867137175768",
+   "platform": "x",
+   "summary": "NQ 선물 전일·아시아 세션 고저점 스윕 후 종가 재진입 확인 → 뉴욕 개장 1시간 내 반대 방향 진입, 반대편 유동성 목표·11~12시 청산",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-19",
+   "updated": "2026-10-19",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-19 05:47",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "d76f70ab8827942e1ff336b56ef5c3087637b99e3c68fe3449b99ff43c77adc5",
- "generated": "2026-10-18T01:41+00:00"
+ "digest": "f29abaca64567f2ddd9d7ed51f0665e684a85534a041fb358451df79fd844b4f",
+ "generated": "2026-10-19T05:47+00:00"
 }
