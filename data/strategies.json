@@ -659,10 +659,19 @@
    "url": "https://x.com/OtherSideBJ/status/2111997344829067460",
    "platform": "x",
    "summary": "다바스 박스(TradingView KivancOzbilgic 지표, BOX LENGTH 5) 상단 돌파 시 매수, 손절은 박스 하단 아래 — 강세 종목 추세 추종",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "다바스 박스 종가 돌파 롱 + 박스 하단 손절 상향",
+   "interval": "1d",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-19",
    "updated": "2026-10-19",
@@ -674,11 +683,16 @@
      "at": "2026-10-19 11:06",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-19 11:09",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "bae27ee926a98cc85e2dc82ae0c4aa58103b7414295652fe3cd2cd4d1c7fa25e",
- "generated": "2026-10-19T11:06+00:00"
+ "digest": "58cb18d6bcc44bc9d24a76a433b53186adaa690f144811037ca772cbbd83c59e",
+ "generated": "2026-10-19T11:10+00:00"
 }
