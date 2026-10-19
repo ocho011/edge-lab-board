@@ -689,7 +689,7 @@
    },
    "confirm": {
     "code": null,
-    "label": "진행 중: CONFIRM_REPRO",
+    "label": "진행 중: CONFIRM_RUN",
     "reason": ""
    },
    "next_step": "확증 자동 진행 중",
@@ -813,11 +813,16 @@
      "at": "2026-10-19 12:48",
      "label": "CONFIRM_REPRO",
      "confirm": true
+    },
+    {
+     "at": "2026-10-19 12:49",
+     "label": "CONFIRM_RUN",
+     "confirm": true
     }
    ],
    "decision": ""
   }
  ],
- "digest": "219fa86edcdacbdbb579e418f623ff380fac7814cc9603f6b8d40d9807e2f559",
- "generated": "2026-10-19T12:48+00:00"
+ "digest": "3800fa67f7d00c019c87b58db3e010e12384cc93413baa742b17044d1b0d4026",
+ "generated": "2026-10-19T12:49+00:00"
 }
