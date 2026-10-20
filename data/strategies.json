@@ -1,10 +1,11 @@
 {
  "summary": {
-  "strategies": 6,
+  "strategies": 7,
   "trials": 26,
   "phases": {
    "보류": 4,
-   "종결": 2
+   "종결": 2,
+   "진행 중": 1
   },
   "action": []
  },
@@ -840,8 +841,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__IamPron001__2111760045134512494",
+   "title": "Candle Range Theory- CRT 100% Win Rate Watch & Study! #CRT",
+   "author": "@IamPron001",
+   "url": "https://x.com/IamPron001/status/2111760045134512494",
+   "platform": "x",
+   "summary": "1h 추세 되돌림 중 반대색 봉의 저점(고점)을 다음 봉이 꼬리로 찌르고 범위 안에 마감하면 5m FVG 지정가로 추세 방향 진입하는 CRT",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-20",
+   "updated": "2026-10-20",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-20 00:29",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "aab046062dfa89323480710397cae7e96de13d84720c846477b4420086075a3b",
- "generated": "2026-10-19T12:51+00:00"
+ "digest": "eaae1d7349a27bc444339433e495cccc2807087f562eed3f5fc570d0c91537f9",
+ "generated": "2026-10-20T00:29+00:00"
 }
