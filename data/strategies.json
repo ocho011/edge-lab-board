@@ -1,11 +1,11 @@
 {
  "summary": {
-  "strategies": 7,
+  "strategies": 8,
   "trials": 26,
   "phases": {
    "보류": 4,
    "종결": 2,
-   "진행 중": 1
+   "진행 중": 2
   },
   "action": []
  },
@@ -986,8 +986,28 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__quantscience___2112520235253191100",
+   "title": "This paper unlocks every algorithm used by hedge funds. 151 trading strategies. …",
+   "author": "@quantscience_",
+   "url": "https://x.com/quantscience_/status/2112520235253191100",
+   "platform": "x",
+   "summary": "선물별 과거 T기간 수익률 부호로 롱·숏을 정하고 1/변동성으로 비중을 줄이는 시계열 모멘텀(151 Trading Strategies §10.4).",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "등록됨",
+   "phase": "진행 중",
+   "registered": "2026-10-20",
+   "updated": "",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [],
+   "decision": ""
   }
  ],
- "digest": "e96305219bfeb808b0b9f3b7f3cd1e5d3b902e0544ca0ece903990a3ba0a2404",
- "generated": "2026-10-20T15:53+00:00"
+ "digest": "e94d48849ddda6b7738b9c4cc97985cd64890613f21bba392a6a4247024500fe",
+ "generated": "2026-10-20T16:16+00:00"
 }
