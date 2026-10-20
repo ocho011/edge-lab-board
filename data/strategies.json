@@ -5,11 +5,9 @@
   "phases": {
    "보류": 4,
    "종결": 2,
-   "승인 대기": 1
+   "진행 중": 1
   },
-  "action": [
-   "x__IamPron001__2111760045134512494"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -863,13 +861,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ① 대기",
-   "phase": "승인 대기",
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
    "registered": "2026-10-20",
    "updated": "2026-10-20",
    "result": null,
    "confirm": null,
-   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
+   "next_step": "자동 진행 중 — 기다리면 됨",
    "timeline": [
     {
      "at": "2026-10-20 00:29",
@@ -915,11 +913,16 @@
      "at": "2026-10-20 00:49",
      "label": "⏸ 승인 ① 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-20 01:11",
+     "label": "해석 작성 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "a7e14cb41308f4e79de73d1213ee8dcbb029a00056396f8d077c9a919ae17f81",
- "generated": "2026-10-20T00:49+00:00"
+ "digest": "59da4bb86e18e25897a46c040110dc84d6d168b7c5e10572a33b30b3e3861564",
+ "generated": "2026-10-20T01:18+00:00"
 }
