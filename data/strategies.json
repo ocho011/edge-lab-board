@@ -4,12 +4,9 @@
   "trials": 27,
   "phases": {
    "보류": 4,
-   "종결": 3,
-   "승인 대기": 1
+   "종결": 4
   },
-  "action": [
-   "x__quantscience___2112520235253191100"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -1054,8 +1051,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-20",
    "updated": "2026-10-21",
    "result": {
@@ -1064,7 +1061,7 @@
     "text": "⚪ 서류 기각"
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (서류 기각) — 빈칸을 정해 연구자 가설로 재시도 가능",
    "timeline": [
     {
      "at": "2026-10-21 02:18",
@@ -1150,11 +1147,16 @@
      "at": "2026-10-21 04:56",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 06:06",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "25795a21939ddc3aa6ac1770b6ab3a5c9f89c8a37abef2f90715891a648bba00",
- "generated": "2026-10-21T05:04+00:00"
+ "digest": "36fe7d6417eda5e70c1cf2e1b6893676be295a1456c51e30c5e4f7d7da575806",
+ "generated": "2026-10-21T06:19+00:00"
 }
