@@ -5,9 +5,11 @@
   "phases": {
    "보류": 4,
    "종결": 3,
-   "진행 중": 1
+   "확인 필요": 1
   },
-  "action": []
+  "action": [
+   "x__quantscience___2112520235253191100"
+  ]
  },
  "strategies": [
   {
@@ -1052,13 +1054,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "해석 리뷰 중",
-   "phase": "진행 중",
+   "stage_label": "❌ 실패",
+   "phase": "확인 필요",
    "registered": "2026-10-20",
    "updated": "2026-10-21",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "맥북 Claude Code에서 원인 확인 필요",
    "timeline": [
     {
      "at": "2026-10-21 02:18",
@@ -1079,11 +1081,16 @@
      "at": "2026-10-21 02:32",
      "label": "해석 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 03:06",
+     "label": "❌ 실패",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "76337e8d588eb0ea2136647a3aa9835f3b8a89def70519e056017056090bdcc9",
- "generated": "2026-10-21T02:32+00:00"
+ "digest": "d060b1788678a12bb838e338335dc21b51260da0267843467070587042c2ef4e",
+ "generated": "2026-10-21T03:06+00:00"
 }
