@@ -1253,11 +1253,16 @@
      "at": "2026-10-21 11:22",
      "label": "구현 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 11:25",
+     "label": "구현 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "44890e504be16d860dd2f1800335afe0b87c8fadd7b6cbceb9210722b2ca92df",
- "generated": "2026-10-21T11:22+00:00"
+ "digest": "c2a480a297427d9989447b05fcf941086b94a5d5f3d70fa429528cc6a4e9a213",
+ "generated": "2026-10-21T11:25+00:00"
 }
