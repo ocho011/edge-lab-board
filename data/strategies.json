@@ -1,10 +1,11 @@
 {
  "summary": {
-  "strategies": 8,
+  "strategies": 9,
   "trials": 27,
   "phases": {
    "보류": 4,
-   "종결": 4
+   "종결": 4,
+   "진행 중": 1
   },
   "action": []
  },
@@ -1155,8 +1156,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__KevOfMomentum__2112242766570745992",
+   "title": "The 5 minute is your where. The 1 minute is your when. Got it?",
+   "author": "@KevOfMomentum",
+   "url": "https://x.com/KevOfMomentum/status/2112242766570745992",
+   "platform": "x",
+   "summary": "5분봉 긴 아랫꼬리를 구역으로 잡고, 1분봉에서 직전 저가 이탈 후 되돌려 마감하면 매수 — 손절은 그 저점",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-21",
+   "updated": "2026-10-21",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-21 07:40",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "36fe7d6417eda5e70c1cf2e1b6893676be295a1456c51e30c5e4f7d7da575806",
- "generated": "2026-10-21T06:19+00:00"
+ "digest": "1b5cc76dbaeebd8666d26ef01586ec7a6c25c3ecd0dba8483f8fa31093c56903",
+ "generated": "2026-10-21T07:40+00:00"
 }
