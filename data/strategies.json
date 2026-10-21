@@ -5,11 +5,9 @@
   "phases": {
    "보류": 4,
    "종결": 3,
-   "승인 대기": 1
+   "진행 중": 1
   },
-  "action": [
-   "x__quantscience___2112520235253191100"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -1054,13 +1052,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ① 대기",
-   "phase": "승인 대기",
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
    "registered": "2026-10-20",
    "updated": "2026-10-21",
    "result": null,
    "confirm": null,
-   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
+   "next_step": "자동 진행 중 — 기다리면 됨",
    "timeline": [
     {
      "at": "2026-10-21 02:18",
@@ -1116,11 +1114,16 @@
      "at": "2026-10-21 03:40",
      "label": "⏸ 승인 ① 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 04:28",
+     "label": "해석 작성 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "b3f3fda2b94882480d3b1cfe83a9d911a2f8be70ce3b701c1376836dd47a2b3b",
- "generated": "2026-10-21T03:40+00:00"
+ "digest": "3366931e8bb918b302ae79a95658b97abae994b984678e0e68d10ecb2315d7a9",
+ "generated": "2026-10-21T04:34+00:00"
 }
