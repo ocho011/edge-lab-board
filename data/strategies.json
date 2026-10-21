@@ -1040,10 +1040,19 @@
    "url": "https://x.com/quantscience_/status/2112520235253191100",
    "platform": "x",
    "summary": "선물별 과거 T기간 수익률 부호로 롱·숏을 정하고 1/변동성으로 비중을 줄이는 시계열 모멘텀(151 Trading Strategies §10.4).",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "변동성 스케일 시계열 모멘텀 (12개월 부호 · 30일 보유 · 1/σ 사이징)",
+   "interval": "1d",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-20",
    "updated": "2026-10-21",
@@ -1055,11 +1064,16 @@
      "at": "2026-10-21 02:18",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 02:26",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "3ddb65b3d4d2e39247f4cf401cc4843455c65ce149339358c5c97d216182621a",
- "generated": "2026-10-21T02:18+00:00"
+ "digest": "cd4794c3c102d0612ff53921ee8b1a755e2e8163e9d7945c8c43f4d00cc316ba",
+ "generated": "2026-10-21T02:26+00:00"
 }
