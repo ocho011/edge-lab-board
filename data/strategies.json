@@ -1164,7 +1164,7 @@
    "url": "https://x.com/KevOfMomentum/status/2112242766570745992",
    "platform": "x",
    "summary": "5분봉 긴 아랫꼬리를 구역으로 잡고, 1분봉에서 직전 저가 이탈 후 되돌려 마감하면 매수 — 손절은 그 저점",
-   "rule": "5분 꼬리 구역 · 1분 스윕 복귀 롱 (연구자 가설)",
+   "rule": "5분 꼬리 구역 · 1분 스윕 복귀 롱 (연구자 가설 · 종가 체결)",
    "interval": "1m",
    "symbols": [
     "BTC",
@@ -1176,7 +1176,7 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "해석 작성 중",
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-21",
    "updated": "2026-10-21",
@@ -1218,11 +1218,16 @@
      "at": "2026-10-21 09:04",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 09:10",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "8cccca3cbf26959c67d1368bc4ebc64ab8b1eadd5d5296284f691710ff6d1616",
- "generated": "2026-10-21T09:05+00:00"
+ "digest": "fb2cf195959421eaa9f39e7b4aff538bbfd72f1ef41c7a515235c5a9b1536288",
+ "generated": "2026-10-21T09:11+00:00"
 }
