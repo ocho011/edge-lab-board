@@ -5,11 +5,9 @@
   "phases": {
    "보류": 4,
    "종결": 4,
-   "승인 대기": 1
+   "진행 중": 1
   },
-  "action": [
-   "x__KevOfMomentum__2112242766570745992"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -1178,13 +1176,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ① 대기",
-   "phase": "승인 대기",
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
    "registered": "2026-10-21",
    "updated": "2026-10-21",
    "result": null,
    "confirm": null,
-   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
+   "next_step": "자동 진행 중 — 기다리면 됨",
    "timeline": [
     {
      "at": "2026-10-21 07:40",
@@ -1215,11 +1213,16 @@
      "at": "2026-10-21 08:33",
      "label": "⏸ 승인 ① 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-21 09:04",
+     "label": "해석 작성 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "688a7a010c751141affcb34839017f27399a873ce646d704f32c5abb3d90611a",
- "generated": "2026-10-21T08:33+00:00"
+ "digest": "8cccca3cbf26959c67d1368bc4ebc64ab8b1eadd5d5296284f691710ff6d1616",
+ "generated": "2026-10-21T09:05+00:00"
 }
