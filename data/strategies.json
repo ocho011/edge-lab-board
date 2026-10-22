@@ -1493,7 +1493,7 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "구현 리뷰 중",
+   "stage_label": "구현 중",
    "phase": "진행 중",
    "registered": "2026-10-22",
    "updated": "2026-10-22",
@@ -1555,11 +1555,16 @@
      "at": "2026-10-22 14:10",
      "label": "구현 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-22 14:13",
+     "label": "구현 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "268276ebc7f9525f913612d24158188fdc29c2a5ef207608b301cc8a68e9d8c1",
- "generated": "2026-10-22T14:10+00:00"
+ "digest": "5f889253611596fcb6ed09dff2dd7b8d8b82786b33a473437be14a18818c9c5e",
+ "generated": "2026-10-22T14:13+00:00"
 }
