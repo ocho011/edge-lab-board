@@ -1481,10 +1481,19 @@
    "url": "https://x.com/IamPron001/status/2110996464973533419",
    "platform": "x",
    "summary": "일봉 C2가 C1 고가(저가)를 꼬리로 찌르고 범위 안에서 마감한 뒤 다음 날 C2 저가(고가)가 깨지면 하위 TF FVG로 진입해 C1 반대쪽 끝을 노리는 반전 CRT",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "일봉 CRT 스윕 반전 — 5m FVG 지정가, 트리거 이후 스윙 손절",
+   "interval": "5m",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-22",
    "updated": "2026-10-22",
@@ -1506,11 +1515,16 @@
      "at": "2026-10-22 13:48",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-22 13:51",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "cd0db0c925cf194fec731be94b0d76ef67879a8fe3a4f55c0ec11e7e690ba76f",
- "generated": "2026-10-22T13:48+00:00"
+ "digest": "8ad275a6288972d1c3ea83b50d6ba92c2e2717629562d0da6f70e9f60219bacc",
+ "generated": "2026-10-22T13:51+00:00"
 }
