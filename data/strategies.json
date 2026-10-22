@@ -1,10 +1,11 @@
 {
  "summary": {
-  "strategies": 9,
+  "strategies": 10,
   "trials": 28,
   "phases": {
    "보류": 4,
-   "종결": 5
+   "종결": 5,
+   "진행 중": 1
   },
   "action": []
  },
@@ -1331,8 +1332,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__IamPron001__2110996464973533419",
+   "title": "Candle Range Theory #CRT The only strategy with the highest win rate Watch & …",
+   "author": "@IamPron001",
+   "url": "https://x.com/IamPron001/status/2110996464973533419",
+   "platform": "x",
+   "summary": "일봉 C2가 C1 고가(저가)를 꼬리로 찌르고 범위 안에서 마감한 뒤 다음 날 C2 저가(고가)가 깨지면 하위 TF FVG로 진입해 C1 반대쪽 끝을 노리는 반전 CRT",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-22",
+   "updated": "2026-10-22",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-22 07:35",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "dd3eccaa20b78833b9fdc579397354f370bb03b06c5a7b71ee6e0b1eb2f1990d",
- "generated": "2026-10-22T04:39+00:00"
+ "digest": "2d6992133b7f0774ab0cbe5499a92755213261d1b551c660c46cf8564ab557a8",
+ "generated": "2026-10-22T07:35+00:00"
 }
