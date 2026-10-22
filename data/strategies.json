@@ -5,9 +5,11 @@
   "phases": {
    "보류": 4,
    "종결": 4,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "x__KevOfMomentum__2112242766570745992"
+  ]
  },
  "strategies": [
   {
@@ -1176,13 +1178,24 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "기계 점검",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ② 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-21",
    "updated": "2026-10-22",
-   "result": null,
+   "result": {
+    "code": "STOP_NEGATIVE",
+    "label": "🔴 손해 확실",
+    "text": "🔴 손해 확실 · 거래당 -0.65R · 50236건 · 승률 33% · 90% 범위 [-0.66, -0.64]",
+    "mean_r": -0.647,
+    "n": 50236,
+    "win_rate": 0.327,
+    "ci90": [
+     -0.657,
+     -0.637
+    ]
+   },
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "결과 확인 후 'edge-lab 승인 2'",
    "timeline": [
     {
      "at": "2026-10-21 07:40",
@@ -1293,11 +1306,31 @@
      "at": "2026-10-22 03:58",
      "label": "기계 점검",
      "confirm": false
+    },
+    {
+     "at": "2026-10-22 03:58",
+     "label": "판정 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-22 03:58",
+     "label": "기록 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-22 03:58",
+     "label": "원장 기록",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-22 03:58",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "6aa2da1a63dfecc66a406465fceb0a3fc777eaba16b46aff0d9fdb2f89eaf172",
- "generated": "2026-10-22T03:58+00:00"
+ "digest": "ec938e9a8335dea349caa5b30f25955cb7178fe19d4468f0a32ef2ed0562f094",
+ "generated": "2026-10-22T03:59+00:00"
 }
