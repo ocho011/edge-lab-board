@@ -1,15 +1,12 @@
 {
  "summary": {
   "strategies": 11,
-  "trials": 29,
+  "trials": 30,
   "phases": {
    "보류": 4,
-   "종결": 6,
-   "승인 대기": 1
+   "종결": 7
   },
-  "action": [
-   "x__IamPron001__2110996464973533419__crt1d-02"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -1495,8 +1492,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-22",
    "updated": "2026-10-22",
    "result": {
@@ -1512,7 +1509,7 @@
     ]
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (손해 확실)",
    "timeline": [
     {
      "at": "2026-10-22 13:41",
@@ -1643,11 +1640,16 @@
      "at": "2026-10-22 16:28",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-22 16:37",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "79098f15e585468913473e0b3399c1044384856228ef1ea94de3572ab803c6cc",
- "generated": "2026-10-22T16:28+00:00"
+ "digest": "c1296d870614b326d57ba2f0a968240065096870f1547165a51d64fbdf1008a7",
+ "generated": "2026-10-22T16:42+00:00"
 }
