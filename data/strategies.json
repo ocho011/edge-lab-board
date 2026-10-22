@@ -1493,7 +1493,7 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "신호 세는 중",
+   "stage_label": "백테스트 중",
    "phase": "진행 중",
    "registered": "2026-10-22",
    "updated": "2026-10-22",
@@ -1600,11 +1600,16 @@
      "at": "2026-10-22 14:42",
      "label": "신호 세는 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-22 15:08",
+     "label": "백테스트 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "91eb19610c203a3a90bd6b81c7c962a202addb30ec7b9de5a0deb8b69e97d032",
- "generated": "2026-10-22T14:42+00:00"
+ "digest": "ec2cb0062d3fe1f3aa0c15221546a28a5247e7626183b96984b65b08cae543d8",
+ "generated": "2026-10-22T15:08+00:00"
 }
