@@ -5,11 +5,9 @@
   "phases": {
    "보류": 4,
    "종결": 6,
-   "확인 필요": 1
+   "진행 중": 1
   },
-  "action": [
-   "x__IamPron001__2110996464973533419__crt1d-02"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -1486,13 +1484,13 @@
    "rule": "",
    "interval": "",
    "symbols": [],
-   "stage_label": "❌ 실패",
-   "phase": "확인 필요",
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
    "registered": "2026-10-22",
    "updated": "2026-10-22",
    "result": null,
    "confirm": null,
-   "next_step": "맥북 Claude Code에서 원인 확인 필요",
+   "next_step": "자동 진행 중 — 기다리면 됨",
    "timeline": [
     {
      "at": "2026-10-22 13:41",
@@ -1503,11 +1501,16 @@
      "at": "2026-10-22 13:44",
      "label": "❌ 실패",
      "confirm": false
+    },
+    {
+     "at": "2026-10-22 13:48",
+     "label": "해석 작성 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "b34df454b6d55b00708b985f1aa58970781c9e3f5f25f9d876d8bcaf30ddbba9",
- "generated": "2026-10-22T13:44+00:00"
+ "digest": "cd0db0c925cf194fec731be94b0d76ef67879a8fe3a4f55c0ec11e7e690ba76f",
+ "generated": "2026-10-22T13:48+00:00"
 }
