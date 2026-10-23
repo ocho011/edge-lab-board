@@ -1657,10 +1657,19 @@
    "url": "https://x.com/apoorvsinghasr/status/2110394084598960273",
    "platform": "x",
    "summary": "[4시간봉·롱숏 사후 변형] 10/21 EMA 크로스 후 되돌림에 진입하고, 스윙 손절·4R 25% 익절·21 EMA 반대편 종가 2연속 잔량 청산을 적용한다.",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "10/21 EMA 크로스 되돌림 4시간봉 롱숏 (사후 탐색 변형)",
+   "interval": "4h",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-23",
    "updated": "2026-10-23",
@@ -1672,11 +1681,16 @@
      "at": "2026-10-23 02:32",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-23 02:37",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "071b8729db8e914614229b36990cebc95e36de977bee45e2604cab88ffe88882",
- "generated": "2026-10-23T02:32+00:00"
+ "digest": "1bea2082b145c28c3f6295645b259b93b5fcac5cc3fdf364017cea250a4ceb24",
+ "generated": "2026-10-23T02:38+00:00"
 }
