@@ -5,9 +5,11 @@
   "phases": {
    "보류": 4,
    "종결": 7,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "x__apoorvsinghasr__2110394084598960273__4h-ls"
+  ]
  },
  "strategies": [
   {
@@ -1669,13 +1671,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "해석 리뷰 중",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ① 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-23",
    "updated": "2026-10-24",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
    "timeline": [
     {
      "at": "2026-10-23 02:32",
@@ -1731,11 +1733,16 @@
      "at": "2026-10-24 07:51",
      "label": "해석 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-24 07:53",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "afc975dd61ed527dead6e92407c75399f898ab57f5c1b909234ae0da4d174933",
- "generated": "2026-10-24T07:51+00:00"
+ "digest": "1329ff33a19c263730b944010244fa4eedbfa4cd4ecdaf5f693767164a445a81",
+ "generated": "2026-10-24T07:53+00:00"
 }
