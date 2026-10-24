@@ -5,9 +5,11 @@
   "phases": {
    "보류": 4,
    "종결": 7,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "x__apoorvsinghasr__2110394084598960273__4h-ls"
+  ]
  },
  "strategies": [
   {
@@ -1669,13 +1671,24 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "기계 점검",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ② 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-23",
    "updated": "2026-10-24",
-   "result": null,
+   "result": {
+    "code": "HOLD_UNDECIDABLE",
+    "label": "🟡 판정불가",
+    "text": "🟡 판정불가 · 거래당 +0.09R · 1963건 · 승률 26% · 90% 범위 [-0.01, +0.20]",
+    "mean_r": 0.091,
+    "n": 1963,
+    "win_rate": 0.263,
+    "ci90": [
+     -0.008,
+     0.195
+    ]
+   },
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "결과 확인 후 'edge-lab 승인 2'",
    "timeline": [
     {
      "at": "2026-10-23 02:32",
@@ -1786,11 +1799,31 @@
      "at": "2026-10-24 08:15",
      "label": "기계 점검",
      "confirm": false
+    },
+    {
+     "at": "2026-10-24 08:15",
+     "label": "판정 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-24 08:15",
+     "label": "기록 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-24 08:15",
+     "label": "원장 기록",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-24 08:15",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "029fcb305f266e388e4bbe91fd5287997f434dab068338c787afa039c82e4551",
- "generated": "2026-10-24T08:15+00:00"
+ "digest": "fda76f00a080d4ff98bf3a74a6af7fb2e0d6c6b29289a705715949426e707b4e",
+ "generated": "2026-10-24T08:16+00:00"
 }
