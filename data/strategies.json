@@ -1,10 +1,11 @@
 {
  "summary": {
-  "strategies": 12,
+  "strategies": 13,
   "trials": 31,
   "phases": {
    "보류": 5,
-   "종결": 7
+   "종결": 7,
+   "진행 중": 1
   },
   "action": []
  },
@@ -1824,8 +1825,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__IamMavion__2114616947078033723",
+   "title": "The Best Scalping Strategy 0:00 - Step 1: Mark the Daily Highs and Lows 0:43 - …",
+   "author": "@IamMavion",
+   "url": "https://x.com/IamMavion/status/2114616947078033723",
+   "platform": "x",
+   "summary": "NY 첫 4시간 캔들 고저를 5분봉 종가가 이탈했다가 안으로 복귀하면 반대 방향 진입, 손절은 이탈 극값, 익절 2R.",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-27",
+   "updated": "2026-10-27",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-27 04:56",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "7a5b80ff3b7189023df14faea328edd441f2cd91e35e0f3bf05ee74f4c3d7e3e",
- "generated": "2026-10-24T09:16+00:00"
+ "digest": "4e832c437989cd318158beaf6f8567e1b96e3caa276b08c115fa55fd0bec7dd2",
+ "generated": "2026-10-27T04:57+00:00"
 }
