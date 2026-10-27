@@ -1,15 +1,12 @@
 {
  "summary": {
   "strategies": 13,
-  "trials": 31,
+  "trials": 32,
   "phases": {
    "보류": 5,
-   "종결": 7,
-   "승인 대기": 1
+   "종결": 8
   },
-  "action": [
-   "x__IamMavion__2114616947078033723"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -1847,8 +1844,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-27",
    "updated": "2026-10-27",
    "result": {
@@ -1864,7 +1861,7 @@
     ]
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (손해 확실)",
    "timeline": [
     {
      "at": "2026-10-27 04:56",
@@ -1970,11 +1967,16 @@
      "at": "2026-10-27 08:57",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-27 09:21",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "7f0d776c18023c3b1282f3d0bbbc7fe8b416549bae0f28667f340fab8433eb86",
- "generated": "2026-10-27T08:57+00:00"
+ "digest": "2da1684c98e219a8f3203ae49a276e4eee89d6198b8d2d687612b657af6f155f",
+ "generated": "2026-10-27T09:25+00:00"
 }
