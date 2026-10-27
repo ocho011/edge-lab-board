@@ -5,9 +5,11 @@
   "phases": {
    "보류": 5,
    "종결": 7,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "x__IamMavion__2114616947078033723"
+  ]
  },
  "strategies": [
   {
@@ -1845,13 +1847,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "해석 리뷰 중",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ① 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-27",
    "updated": "2026-10-27",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
    "timeline": [
     {
      "at": "2026-10-27 04:56",
@@ -1892,11 +1894,16 @@
      "at": "2026-10-27 05:19",
      "label": "해석 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-27 05:21",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "35991e18eb633a477c65ffdc381ca8300914b6405db659e41ec4d52ea06407dc",
- "generated": "2026-10-27T05:19+00:00"
+ "digest": "7499a527453c88b00c86855579c0de906333b9f946a9d39f2eaf594bc0534f04",
+ "generated": "2026-10-27T05:21+00:00"
 }
