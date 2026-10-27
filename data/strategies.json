@@ -1833,10 +1833,19 @@
    "url": "https://x.com/IamMavion/status/2114616947078033723",
    "platform": "x",
    "summary": "NY 첫 4시간 캔들 고저를 5분봉 종가가 이탈했다가 안으로 복귀하면 반대 방향 진입, 손절은 이탈 극값, 익절 2R.",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "NY 첫 4H 레인지 이탈 후 복귀 스캘핑",
+   "interval": "5m",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-27",
    "updated": "2026-10-27",
@@ -1848,11 +1857,16 @@
      "at": "2026-10-27 04:56",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-27 05:00",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "4e832c437989cd318158beaf6f8567e1b96e3caa276b08c115fa55fd0bec7dd2",
- "generated": "2026-10-27T04:57+00:00"
+ "digest": "5803769f97078a91825c82c6c01918ad62f0e3983ce6e2a474f7f6f5b4ec76ac",
+ "generated": "2026-10-27T05:01+00:00"
 }
