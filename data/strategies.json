@@ -5,9 +5,11 @@
   "phases": {
    "보류": 5,
    "종결": 8,
-   "진행 중": 1
+   "확인 필요": 1
   },
-  "action": []
+  "action": [
+   "x__YourWhitePeach__2115329810247651629"
+  ]
  },
  "strategies": [
   {
@@ -1996,13 +1998,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "구현 리뷰 중",
-   "phase": "진행 중",
+   "stage_label": "❌ 실패",
+   "phase": "확인 필요",
    "registered": "2026-10-28",
    "updated": "2026-10-28",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "맥북 Claude Code에서 원인 확인 필요",
    "timeline": [
     {
      "at": "2026-10-28 08:33",
@@ -2113,11 +2115,16 @@
      "at": "2026-10-28 12:58",
      "label": "구현 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-28 13:01",
+     "label": "❌ 실패",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "70383e86e5c6c89bce0722f493dbc6e90521b7cd1204dd0807322c34dfe2e767",
- "generated": "2026-10-28T12:58+00:00"
+ "digest": "4cc273d9651eb4a5bfad0f2a8296de2a492aacb1f35a84d991e94e7e078d75cb",
+ "generated": "2026-10-28T13:01+00:00"
 }
