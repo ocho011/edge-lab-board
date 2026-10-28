@@ -5,11 +5,9 @@
   "phases": {
    "보류": 5,
    "종결": 9,
-   "승인 대기": 1
+   "진행 중": 1
   },
-  "action": [
-   "x__YourWhitePeach__2115329810247651629__ywp-cisd-02"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -2143,13 +2141,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ① 대기",
-   "phase": "승인 대기",
+   "stage_label": "구현 리뷰 중",
+   "phase": "진행 중",
    "registered": "2026-10-28",
    "updated": "2026-10-28",
    "result": null,
    "confirm": null,
-   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
+   "next_step": "자동 진행 중 — 기다리면 됨",
    "timeline": [
     {
      "at": "2026-10-28 13:05",
@@ -2220,11 +2218,21 @@
      "at": "2026-10-28 17:47",
      "label": "⏸ 승인 ① 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-28 18:11",
+     "label": "구현 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-28 18:15",
+     "label": "구현 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "18408d254dc7697da9efbc0d1c6f9cdb77eb30ea442acd04970387507487c000",
- "generated": "2026-10-28T17:48+00:00"
+ "digest": "4888271aeb37c1e0908aa4f59d2d1e96cd424cc57718db24fdd8aba1c8df63c4",
+ "generated": "2026-10-28T18:15+00:00"
 }
