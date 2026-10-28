@@ -1,11 +1,12 @@
 {
  "summary": {
-  "strategies": 14,
+  "strategies": 15,
   "trials": 32,
   "phases": {
    "보류": 5,
    "종결": 8,
-   "확인 필요": 1
+   "확인 필요": 1,
+   "진행 중": 1
   },
   "action": [
    "x__YourWhitePeach__2115329810247651629"
@@ -2123,8 +2124,28 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "x__YourWhitePeach__2115329810247651629__ywp-cisd-02",
+   "title": "$BTC - 멋진 아시아 세션 고점과 PDH - 더 멋진 아시아 저점 및 OB - 즉, FOMC 전후로 Judas Swing 매매가 오늘도 …",
+   "author": "@YourWhitePeach",
+   "url": "https://x.com/YourWhitePeach/status/2115329810247651629",
+   "platform": "x",
+   "summary": "BTC 15m 아시아·런던 세션 고저점과 PDH/PDL 스윕 후 레인지 복귀 시 5m CISD 확인으로 스윕 반대 방향 진입(Judas Swing·뉴욕 리버설)",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "등록됨",
+   "phase": "진행 중",
+   "registered": "2026-10-28",
+   "updated": "",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [],
+   "decision": ""
   }
  ],
- "digest": "4cc273d9651eb4a5bfad0f2a8296de2a492aacb1f35a84d991e94e7e078d75cb",
- "generated": "2026-10-28T13:01+00:00"
+ "digest": "543fddd0d722e4b6913bf9f766ad6394b652f56755bca96e4c201259bcbc20bf",
+ "generated": "2026-10-28T13:04+00:00"
 }
