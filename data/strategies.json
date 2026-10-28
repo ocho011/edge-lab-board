@@ -2132,7 +2132,7 @@
    "url": "https://x.com/YourWhitePeach/status/2115329810247651629",
    "platform": "x",
    "summary": "BTC 15m 아시아·런던 세션 고저점과 PDH/PDL 스윕 후 레인지 복귀 시 5m CISD 확인으로 스윕 반대 방향 진입(Judas Swing·뉴욕 리버설)",
-   "rule": "세션 레벨 스윕 후 5m CISD 반전 (본전 이동 엔진 규칙판)",
+   "rule": "아시아 세션 레벨 스윕 + 5m CISD 리버설 (본전 이동 0.1% 하한판)",
    "interval": "5m",
    "symbols": [
     "BTC",
@@ -2144,7 +2144,7 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "해석 작성 중",
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-28",
    "updated": "2026-10-28",
@@ -2201,11 +2201,16 @@
      "at": "2026-10-28 17:34",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-28 17:39",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "6d89bc3c745fa868863d7629760aa80c517ac5e4c98666296e77e4f5c8465532",
- "generated": "2026-10-28T17:35+00:00"
+ "digest": "83d5836f2008649398476b6b75dd9c055f5007aa21cbc64e0676e86144a7c6c8",
+ "generated": "2026-10-28T17:39+00:00"
 }
