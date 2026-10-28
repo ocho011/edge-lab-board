@@ -1,15 +1,12 @@
 {
  "summary": {
   "strategies": 15,
-  "trials": 32,
+  "trials": 33,
   "phases": {
    "보류": 5,
-   "종결": 9,
-   "승인 대기": 1
+   "종결": 10
   },
-  "action": [
-   "x__YourWhitePeach__2115329810247651629__ywp-cisd-02"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -2143,8 +2140,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-28",
    "updated": "2026-10-28",
    "result": {
@@ -2160,7 +2157,7 @@
     ]
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (손해 확실)",
    "timeline": [
     {
      "at": "2026-10-28 13:05",
@@ -2291,11 +2288,26 @@
      "at": "2026-10-28 20:41",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-28 22:04",
+     "label": "❌ 실패",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-28 22:07",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-28 22:09",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "903f0cbe7b9216c057f40bc5dd4051437f78c235ccf070e4a2eeec6a8e81198f",
- "generated": "2026-10-28T20:41+00:00"
+ "digest": "fb17cc45cd77f18fecfdcbf3bd06183eb57de214f0f06e450fbbedf9f68a8315",
+ "generated": "2026-10-28T22:10+00:00"
 }
