@@ -1,10 +1,11 @@
 {
  "summary": {
-  "strategies": 15,
+  "strategies": 16,
   "trials": 33,
   "phases": {
    "보류": 5,
-   "종결": 10
+   "종결": 10,
+   "진행 중": 1
   },
   "action": []
  },
@@ -2306,8 +2307,34 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "author__osangwon__20261031-sweep-break-limit",
+   "title": "1h 스윕 → 5m 돌파 → 되돌림 리밋",
+   "author": "osangwon",
+   "url": "",
+   "platform": "author",
+   "summary": "1h 봉의 이전 봉 저가 스윕 뒤 5m 마감 돌파가 나오면 되돌림 리밋으로 진입하고, 이전 봉 고가(TP1)와 상위 목표(TP2)에서 분할 청산한다.",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "해석 작성 중",
+   "phase": "진행 중",
+   "registered": "2026-10-31",
+   "updated": "2026-10-31",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [
+    {
+     "at": "2026-10-31 01:43",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
+   "decision": ""
   }
  ],
- "digest": "fb17cc45cd77f18fecfdcbf3bd06183eb57de214f0f06e450fbbedf9f68a8315",
- "generated": "2026-10-28T22:10+00:00"
+ "digest": "274db31dd2299815fed1c9f5fd45c7a55658b56fe1c1227a9aeb3a66fb3d847e",
+ "generated": "2026-10-31T01:43+00:00"
 }
