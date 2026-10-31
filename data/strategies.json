@@ -2315,10 +2315,13 @@
    "url": "",
    "platform": "author",
    "summary": "1h 봉의 이전 봉 저가 스윕 뒤 5m 마감 돌파가 나오면 되돌림 리밋으로 진입하고, 이전 봉 고가(TP1)와 상위 목표(TP2)에서 분할 청산한다.",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "1h 스윕 → 5m 돌파 → 되돌림 리밋",
+   "interval": "5m",
+   "symbols": [
+    "BTC",
+    "ETH"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-10-31",
    "updated": "2026-10-31",
@@ -2330,11 +2333,16 @@
      "at": "2026-10-31 01:43",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-31 01:48",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "274db31dd2299815fed1c9f5fd45c7a55658b56fe1c1227a9aeb3a66fb3d847e",
- "generated": "2026-10-31T01:43+00:00"
+ "digest": "bbdfeb8e72bd0bc0bddeb34b0514303cc52ec730a1c785cb1eb1347f674e33cb",
+ "generated": "2026-10-31T01:48+00:00"
 }
