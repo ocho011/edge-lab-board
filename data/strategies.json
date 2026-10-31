@@ -1,15 +1,12 @@
 {
  "summary": {
   "strategies": 16,
-  "trials": 33,
+  "trials": 34,
   "phases": {
    "보류": 5,
-   "종결": 10,
-   "승인 대기": 1
+   "종결": 11
   },
-  "action": [
-   "author__osangwon__20261031-sweep-break-limit"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -2323,8 +2320,8 @@
     "BTC",
     "ETH"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-10-31",
    "updated": "2026-10-31",
    "result": {
@@ -2340,7 +2337,7 @@
     ]
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (손해 확실)",
    "timeline": [
     {
      "at": "2026-10-31 01:43",
@@ -2476,11 +2473,16 @@
      "at": "2026-10-31 07:08",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-10-31 07:26",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "48f4d2a6f0b303246932655be723ab3f283dc6837c78bc46f3256385006f7795",
- "generated": "2026-10-31T07:08+00:00"
+ "digest": "afb494ce52a6a4c6c05f141198b1eb58997b8a937d106d4fa5f3fd0f827b4a3a",
+ "generated": "2026-10-31T07:29+00:00"
 }
