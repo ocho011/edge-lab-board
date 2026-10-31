@@ -5,9 +5,11 @@
   "phases": {
    "보류": 5,
    "종결": 10,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "author__osangwon__20261031-sweep-break-limit"
+  ]
  },
  "strategies": [
   {
@@ -2321,13 +2323,13 @@
     "BTC",
     "ETH"
    ],
-   "stage_label": "해석 리뷰 중",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ① 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-31",
    "updated": "2026-10-31",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
    "timeline": [
     {
      "at": "2026-10-31 01:43",
@@ -2368,11 +2370,16 @@
      "at": "2026-10-31 02:05",
      "label": "해석 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-31 02:10",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "19ab0dd632bcd1faa023e0b6bb628209085a1672e46e86c609a78f9f87bce774",
- "generated": "2026-10-31T02:05+00:00"
+ "digest": "16d957ee2e33c92b44d55d2941472d6bcfb201b40adcc2107db94757d86da08a",
+ "generated": "2026-10-31T02:10+00:00"
 }
