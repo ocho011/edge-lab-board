@@ -2321,7 +2321,7 @@
     "BTC",
     "ETH"
    ],
-   "stage_label": "백테스트 중",
+   "stage_label": "기계 점검",
    "phase": "진행 중",
    "registered": "2026-10-31",
    "updated": "2026-10-31",
@@ -2438,11 +2438,16 @@
      "at": "2026-10-31 05:52",
      "label": "백테스트 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-31 06:42",
+     "label": "기계 점검",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "db04dfc8b698ae020cc3f193d5b7d9d7ff354ede6c5a863351c8f1ecbea14a68",
- "generated": "2026-10-31T05:52+00:00"
+ "digest": "790036a55aeb9d13b6b76d9d7e7a2d7a9960ba9a430ff49fc979f242a791ebf7",
+ "generated": "2026-10-31T06:43+00:00"
 }
