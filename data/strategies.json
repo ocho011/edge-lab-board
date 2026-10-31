@@ -5,9 +5,11 @@
   "phases": {
    "보류": 5,
    "종결": 10,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "author__osangwon__20261031-sweep-break-limit"
+  ]
  },
  "strategies": [
   {
@@ -2321,13 +2323,24 @@
     "BTC",
     "ETH"
    ],
-   "stage_label": "기계 점검",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ② 대기",
+   "phase": "승인 대기",
    "registered": "2026-10-31",
    "updated": "2026-10-31",
-   "result": null,
+   "result": {
+    "code": "STOP_NEGATIVE",
+    "label": "🔴 손해 확실",
+    "text": "🔴 손해 확실 · 거래당 -0.17R · 561건 · 승률 36% · 90% 범위 [-0.23, -0.10]",
+    "mean_r": -0.166,
+    "n": 561,
+    "win_rate": 0.364,
+    "ci90": [
+     -0.23,
+     -0.102
+    ]
+   },
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "결과 확인 후 'edge-lab 승인 2'",
    "timeline": [
     {
      "at": "2026-10-31 01:43",
@@ -2443,11 +2456,31 @@
      "at": "2026-10-31 06:42",
      "label": "기계 점검",
      "confirm": false
+    },
+    {
+     "at": "2026-10-31 07:08",
+     "label": "판정 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-31 07:08",
+     "label": "기록 중",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-31 07:08",
+     "label": "원장 기록",
+     "confirm": false
+    },
+    {
+     "at": "2026-10-31 07:08",
+     "label": "⏸ 승인 ② 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "790036a55aeb9d13b6b76d9d7e7a2d7a9960ba9a430ff49fc979f242a791ebf7",
- "generated": "2026-10-31T06:43+00:00"
+ "digest": "48f4d2a6f0b303246932655be723ab3f283dc6837c78bc46f3256385006f7795",
+ "generated": "2026-10-31T07:08+00:00"
 }
