@@ -2321,7 +2321,7 @@
     "BTC",
     "ETH"
    ],
-   "stage_label": "구현 리뷰 중",
+   "stage_label": "구현 중",
    "phase": "진행 중",
    "registered": "2026-10-31",
    "updated": "2026-10-31",
@@ -2413,11 +2413,16 @@
      "at": "2026-10-31 05:20",
      "label": "구현 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-10-31 05:22",
+     "label": "구현 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "8bcb1de8585c552f6356c272b2ba23695111cb71152b84a4fa1022c0c3b051bd",
- "generated": "2026-10-31T05:20+00:00"
+ "digest": "d6eeff335a3e4968056724d4afed70cef8867ff5f193c7b64b2a1fff25fda13e",
+ "generated": "2026-10-31T05:22+00:00"
 }
