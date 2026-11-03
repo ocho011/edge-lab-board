@@ -1,7 +1,7 @@
 {
  "summary": {
   "strategies": 16,
-  "trials": 42,
+  "trials": 44,
   "phases": {
    "보류": 5,
    "종결": 11
@@ -2483,6 +2483,6 @@
    "decision": ""
   }
  ],
- "digest": "4c7a02140d7d1b9f1dd7eb714e12f453f971a85ff7fac11a6551c3a0188dca0e",
- "generated": "2026-11-03T04:37+00:00"
+ "digest": "7e9723b09df76944d6129455d88dc3b120847d9829ddf68da17de125c53f0c30",
+ "generated": "2026-11-03T07:52+00:00"
 }
