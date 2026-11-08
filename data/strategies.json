@@ -1,11 +1,10 @@
 {
  "summary": {
-  "strategies": 17,
+  "strategies": 16,
   "trials": 47,
   "phases": {
    "보류": 5,
-   "종결": 11,
-   "진행 중": 1
+   "종결": 11
   },
   "action": []
  },
@@ -2482,28 +2481,8 @@
     }
    ],
    "decision": ""
-  },
-  {
-   "key": "youtube__ybCLeqQjess",
-   "title": "Candle Range Theory (CRT) Trading Strategy Explained | High Win Rate ICT/SMC Setup",
-   "author": "Trade With AM",
-   "url": "https://www.youtube.com/watch?v=ybCLeqQjess",
-   "platform": "youtube",
-   "summary": "HTF 2번 캔들이 1번 캔들 극단을 꼬리로 스윕하고 범위 안에서 마감하면, 3번 캔들 동안 LTF FVG 되돌림 후 반대편 경계로 진입",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "등록됨",
-   "phase": "진행 중",
-   "registered": "2026-11-08",
-   "updated": "",
-   "result": null,
-   "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
-   "timeline": [],
-   "decision": ""
   }
  ],
- "digest": "b3a036ce504b7edd1d1e0d09e89681d500fd9d2fd303c89e9ad0d45f9e22aeb9",
- "generated": "2026-11-08T11:37+00:00"
+ "digest": "386b419f76d964e8d62e697a6f280add8e04310cce7022f13d1842e1b36c8047",
+ "generated": "2026-11-08T11:52+00:00"
 }
