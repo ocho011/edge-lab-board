@@ -1,11 +1,12 @@
 {
  "summary": {
-  "strategies": 18,
+  "strategies": 19,
   "trials": 47,
   "phases": {
    "보류": 5,
    "종결": 12,
-   "승인 대기": 1
+   "승인 대기": 1,
+   "진행 중": 1
   },
   "action": [
    "author__osangwon__20261109-sweep-mss-poi-limit__sweepmss-02"
@@ -2735,8 +2736,28 @@
     }
    ],
    "decision": ""
+  },
+  {
+   "key": "author__osangwon__20261109-sweep-mss-poi-limit__sweepmss-03",
+   "title": "1h 스윕 → 5m MSS → POI 리밋",
+   "author": "osangwon",
+   "url": "",
+   "platform": "author",
+   "summary": "직전 1h봉 고가·저가를 5m에서 스윕하고 범위 안에서 마감하면, 5m MSS 뒤 FVG·OB·IRL에 리밋을 걸어 반대편으로 노린다.",
+   "rule": "",
+   "interval": "",
+   "symbols": [],
+   "stage_label": "등록됨",
+   "phase": "진행 중",
+   "registered": "2026-11-09",
+   "updated": "",
+   "result": null,
+   "confirm": null,
+   "next_step": "자동 진행 중 — 기다리면 됨",
+   "timeline": [],
+   "decision": ""
   }
  ],
- "digest": "02daa4400fea42b3ee87d2fef4c4ea6ed54d0aa127e451a52f71c523e0c3298a",
- "generated": "2026-11-09T08:05+00:00"
+ "digest": "ab1db7f268e5176141298538e2b527d628be6a61468902cdb830b2f1f3f1efc9",
+ "generated": "2026-11-09T11:52+00:00"
 }
