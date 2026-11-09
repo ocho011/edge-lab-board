@@ -2493,17 +2493,23 @@
    "rule": "",
    "interval": "",
    "symbols": [],
-   "stage_label": "등록됨",
+   "stage_label": "해석 작성 중",
    "phase": "진행 중",
    "registered": "2026-11-09",
-   "updated": "",
+   "updated": "2026-11-09",
    "result": null,
    "confirm": null,
    "next_step": "자동 진행 중 — 기다리면 됨",
-   "timeline": [],
+   "timeline": [
+    {
+     "at": "2026-11-09 01:24",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
    "decision": ""
   }
  ],
- "digest": "d1ccc9a1e56300b12b31e7150317d183d94fe3d2cd7936ad64722973ee21b553",
- "generated": "2026-11-09T01:09+00:00"
+ "digest": "f8338c499b6ad1a98b90378f29922ebadd2cfe696776ac683279b287cd3691f1",
+ "generated": "2026-11-09T01:24+00:00"
 }
