@@ -1,16 +1,13 @@
 {
  "summary": {
   "strategies": 19,
-  "trials": 47,
+  "trials": 48,
   "phases": {
    "보류": 5,
-   "종결": 12,
-   "승인 대기": 1,
+   "종결": 13,
    "진행 중": 1
   },
-  "action": [
-   "author__osangwon__20261109-sweep-mss-poi-limit__sweepmss-02"
-  ]
+  "action": []
  },
  "strategies": [
   {
@@ -2620,8 +2617,8 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "⏸ 승인 ② 대기",
-   "phase": "승인 대기",
+   "stage_label": "완료",
+   "phase": "종결",
    "registered": "2026-11-09",
    "updated": "2026-11-09",
    "result": {
@@ -2637,7 +2634,7 @@
     ]
    },
    "confirm": null,
-   "next_step": "결과 확인 후 'edge-lab 승인 2'",
+   "next_step": "종결 (손해 확실)",
    "timeline": [
     {
      "at": "2026-11-09 05:10",
@@ -2733,6 +2730,11 @@
      "at": "2026-11-09 08:05",
      "label": "⏸ 승인 ② 대기",
      "confirm": false
+    },
+    {
+     "at": "2026-11-09 12:00",
+     "label": "완료",
+     "confirm": false
     }
    ],
    "decision": ""
@@ -2747,17 +2749,23 @@
    "rule": "",
    "interval": "",
    "symbols": [],
-   "stage_label": "등록됨",
+   "stage_label": "해석 작성 중",
    "phase": "진행 중",
    "registered": "2026-11-09",
-   "updated": "",
+   "updated": "2026-11-09",
    "result": null,
    "confirm": null,
    "next_step": "자동 진행 중 — 기다리면 됨",
-   "timeline": [],
+   "timeline": [
+    {
+     "at": "2026-11-09 12:07",
+     "label": "해석 작성 중",
+     "confirm": false
+    }
+   ],
    "decision": ""
   }
  ],
- "digest": "ab1db7f268e5176141298538e2b527d628be6a61468902cdb830b2f1f3f1efc9",
- "generated": "2026-11-09T11:52+00:00"
+ "digest": "3136b526b12fc6a140bea7136a6011d4c6cf5e515f4dc88734a99aaf4148a235",
+ "generated": "2026-11-09T12:07+00:00"
 }
