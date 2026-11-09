@@ -2605,10 +2605,19 @@
    "url": "",
    "platform": "author",
    "summary": "직전 1h봉 고가·저가를 5m에서 스윕하고 범위 안에서 마감하면, 5m MSS 뒤 FVG·OB·IRL에 리밋을 걸어 반대편으로 노린다.",
-   "rule": "",
-   "interval": "",
-   "symbols": [],
-   "stage_label": "해석 작성 중",
+   "rule": "1h 스윕 → 5m MSS → POI 리밋 (사후 탐색 변형: 엔진 다단 TP 귀속 수정 뒤 재측정)",
+   "interval": "5m",
+   "symbols": [
+    "BTC",
+    "ETH",
+    "SOL",
+    "XRP",
+    "DOGE",
+    "ADA",
+    "DOT",
+    "SUI"
+   ],
+   "stage_label": "해석 리뷰 중",
    "phase": "진행 중",
    "registered": "2026-11-09",
    "updated": "2026-11-09",
@@ -2620,11 +2629,16 @@
      "at": "2026-11-09 05:10",
      "label": "해석 작성 중",
      "confirm": false
+    },
+    {
+     "at": "2026-11-09 05:14",
+     "label": "해석 리뷰 중",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "71542f2f27ea034e82635e5b523f8d5029e928cac20b138ffcfdc8061acd547f",
- "generated": "2026-11-09T05:10+00:00"
+ "digest": "f0277167ff513db2782547443455fabd9f8ac7e857cda9fe5906ea73dd17d192",
+ "generated": "2026-11-09T05:14+00:00"
 }
