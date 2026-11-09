@@ -5,9 +5,11 @@
   "phases": {
    "보류": 5,
    "종결": 11,
-   "진행 중": 1
+   "확인 필요": 1
   },
-  "action": []
+  "action": [
+   "author__osangwon__20261109-sweep-mss-poi-limit"
+  ]
  },
  "strategies": [
   {
@@ -2502,13 +2504,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "백테스트 중",
-   "phase": "진행 중",
+   "stage_label": "❌ 실패",
+   "phase": "확인 필요",
    "registered": "2026-11-09",
    "updated": "2026-11-09",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "맥북 Claude Code에서 원인 확인 필요",
    "timeline": [
     {
      "at": "2026-11-09 01:24",
@@ -2589,11 +2591,16 @@
      "at": "2026-11-09 03:23",
      "label": "백테스트 중",
      "confirm": false
+    },
+    {
+     "at": "2026-11-09 04:05",
+     "label": "❌ 실패",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "16367f64ab296775453695b5407da44f89288e75ffe40e07cc1c4952801ac080",
- "generated": "2026-11-09T03:23+00:00"
+ "digest": "63db15145b0d0b7bdac5b8a0c1422ddd62cae37784cb48c0a6b35cbceeb829f8",
+ "generated": "2026-11-09T04:05+00:00"
 }
