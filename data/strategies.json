@@ -5,9 +5,11 @@
   "phases": {
    "보류": 5,
    "종결": 12,
-   "진행 중": 1
+   "승인 대기": 1
   },
-  "action": []
+  "action": [
+   "author__osangwon__20261109-sweep-mss-poi-limit__sweepmss-02"
+  ]
  },
  "strategies": [
   {
@@ -2617,13 +2619,13 @@
     "DOT",
     "SUI"
    ],
-   "stage_label": "해석 리뷰 중",
-   "phase": "진행 중",
+   "stage_label": "⏸ 승인 ① 대기",
+   "phase": "승인 대기",
    "registered": "2026-11-09",
    "updated": "2026-11-09",
    "result": null,
    "confirm": null,
-   "next_step": "자동 진행 중 — 기다리면 됨",
+   "next_step": "해석 검토 후 'edge-lab 승인' 또는 'edge-lab 다시 써 줘: …'",
    "timeline": [
     {
      "at": "2026-11-09 05:10",
@@ -2644,11 +2646,16 @@
      "at": "2026-11-09 05:22",
      "label": "해석 리뷰 중",
      "confirm": false
+    },
+    {
+     "at": "2026-11-09 05:24",
+     "label": "⏸ 승인 ① 대기",
+     "confirm": false
     }
    ],
    "decision": ""
   }
  ],
- "digest": "21eaa3534639bfaf296f59f2be3696b8e984642206ee8e2d3e18f405405042c9",
- "generated": "2026-11-09T05:22+00:00"
+ "digest": "ddedd302368ddac37bedbf3b9c9157abf0ebe72eb9faa42961b22308aa939b80",
+ "generated": "2026-11-09T05:24+00:00"
 }
